@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding-top: 800px;
-
+    text-align: center;
 }
 
 #welcome {
@@ -74,6 +74,7 @@ p {
     padding: 50px;
     text-align: left;
     font-size: 40px;
+    background: linear-gradient(#fc035e 0%, #5920d4 100%);
 }
 
 .menu {
@@ -85,23 +86,39 @@ p {
     z-index: 10;
     cursor: pointer;
 }
-.links{
+
+.links {
     float: left;
     color: crimson;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 9px;
     padding-right: 9px;
-   font-family:"Cinzel Decorative" , cursive;
+    font-family: "Cinzel Decorative", cursive;
     font-size: 20px;
 }
-.links:hover{
+
+.links:hover {
     background-color: darkslateblue;
     font-size: 25px;
-   
-}
-    
 
+}
+
+a {
+    text-decoration: none;
+}
+
+.article {
+    font-size: 40px;
+}
+
+.article:hover {
+    color: darkred;
+    font-size: 40px;
+}
+html{
+    scroll-behavior: smooth;
+}
 
 
 
